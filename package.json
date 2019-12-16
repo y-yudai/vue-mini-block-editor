@@ -4,16 +4,27 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/y-yudai/vue-mini-block-editor.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "yudai yamamoto",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/y-yudai/vue-mini-block-editor/issues"
   },
-  "homepage": "https://github.com/y-yudai/vue-mini-block-editor#readme"
+  "homepage": "https://github.com/y-yudai/vue-mini-block-editor#readme",
+  "dependencies": {
+    "vue": "^2.6.11",
+    "vue-hot-reload-api": "^2.3.4",
+    "vuex": "^3.1.2"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^3.1.0",
+    "parcel-bundler": "^1.12.4",
+    "vue-template-compiler": "^2.6.11"
+  }
 }
